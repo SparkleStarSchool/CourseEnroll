@@ -1,0 +1,44 @@
+body{
+    color:#3600b3;
+}
+#title{
+    font-size: 1.4em;
+    font-weight: 500;
+    font-style: italic;
+    display: inline-block;
+}
+#titleImage{
+    padding-right: 5px;
+}
+.titleLayout{
+    margin-bottom: 10px;
+}
+.layout{
+    margin-top: 50px;
+}
+#courseName{
+    margin-bottom: 15px;
+}
+.rowLayout{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.buttonStyle{
+    color:#3600b3;
+    margin-bottom: 10px;
+}
+#saveCourse{
+    padding: 6px 17px;
+}
+.warningBorder{
+    border: 2px solid red;
+}
+.warning{
+    color: red;
+}
+#firstNameMessage, #lastNameMessage{
+    display: none;
+}
+.timeItem{
+    accent-color:rgb(250, 209, 0);
+}
