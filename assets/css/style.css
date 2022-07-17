@@ -42,3 +42,7 @@ body{
 .timeItem{
     accent-color:rgb(250, 209, 0);
 }
+.thanks{
+    display: inline-block;
+    text-align: center;
+}

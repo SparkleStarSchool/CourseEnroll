@@ -1,4 +1,3 @@
-// C:/00rong/02Qiming/courseApp/CourseEnroll/index.html?course=00MEybcWX13SyQy5yWgcmbWoJN9d
 $(document).ready(()=>{
     // get course key from url
     let search = window.location.search.substring(1)
@@ -57,8 +56,7 @@ $(document).ready(()=>{
             enrollInfor.courseID=courseID
             enrollInfor.timeOptions= timeSetting
             db.ref('enroll').child(key).set(enrollInfor).then(()=>{
-                $(".modal-body").find("h6").text("Thank you !")
-                $("#confirmModal").modal();
+                window.location.href='thankyou.html'
             })
         }
     })
